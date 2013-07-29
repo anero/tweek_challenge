@@ -1,6 +1,4 @@
 class UsersController < ApplicationController
-	# respond_to :xml, :json
-
 	def create
 		status = :created
 		begin
